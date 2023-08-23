@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .intro {
+            background-color: #00483d;
+            color: white;
+            padding: 5px 0;
+            text-align: center;
+        }
+        
+        .intro ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .intro li {
+            margin-right: 20px;
+        }
+        
+        .intro a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .logo-search-cart {
+            background-color: pink;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .search-container {
+   			 position: relative;
+		}
+
+		.search-icon {
+    	position: absolute;
+   		 top: 50%;
+   		 right: 10px;
+   		 transform: translateY(-50%);
+   		 width: 20px;
+    	height: 20px;
+		}
+        
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .search {
+            flex: 2;
+            margin: 0 50px;
+        }
+        
+        .search input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .cart {
+            text-align: right;
+            padding: 30px 20px ;
+         	
+            
+        }
+        
+        .menu {
+            background-color: #00483d;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .menu li {
+            margin-right: 20px;
+        }
+        
+        .menu a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <ul>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Trung tâm bảo hành</a></li>
+                <li><a href="#">Tra cứu đơn hàng</a></li>
+                 <li><a href="#">Đăng nhập</a></li>
+                  <li><a href="#">Đăng ký</a></li>
+                   <li><a href="#">Quên mật khẩu</a></li>
+            </ul>
+        </div>
+        <div class="logo-search-cart">
+            <div class="logo">Logo</div>
+            <div class="search">
+    <div class="search-container">
+        <input type="text" placeholder="Tìm kiếm sản phẩm...">
+        <img src="search-icon.png" alt="Search Icon" class="search-icon">
+    </div>
+</div>
+            
+            <div class="cart">
+                <button>Kiểm tra đơn hàng</button>
+                <a href="#">Giỏ hàng</a>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+              <li><a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP._NRuOuRVm-YqMydG3vcYEwHaHk&pid=Api&P=0&h=180" alt="Icon 1">ĐIỆN THOẠI </a></li>
+              <li><a href="#"><img src="https://tse3.mm.bing.net/th?id=OIP.sffkCB6AFJqVBmRnH60d3AHaHa&pid=Api&P=0&h=180" alt="Icon 2"> LAPTOP</a></li>
+              <li><a href="#"><img src="https://tse3.mm.bing.net/th?id=OIP.ypc_dIe3QIqOMs_TCT1LdgHaHa&pid=Api&P=0&h=180" alt="Icon 3"> TABLET</a></li>
+              <li><a href="#"><img src="https://tse4.mm.bing.net/th?id=OIP.t8ibbsrv6cBMTp0gEXqOrwHaHa&pid=Api&P=0&h=180" alt="Icon 4"> TAI NGHE</a></li>
+              <li><a href="#"><img src="https://tse3.mm.bing.net/th?id=OIP.cAMcalzDUC8GuYuTTIfzSQHaHa&pid=Api&P=0&h=180" alt="Icon 4"> PHỤ KIỆN</a></li>
+              <li><a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.hSiJ6MZ0XGp2uC3w_IZ-BQHaHa&pid=Api&P=0&h=180" alt="Icon 4"> SIM THẺ </a></li>
+              <li><a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.tgBU7SBFreyCpG1DMtfY_AAAAA&pid=Api&P=0&h=180" alt="Icon 4"> SỬA CHỮA</a></li>
+              <li><a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.wR-oPCEr6qTcJHl18u5xgQHaHa&pid=Api&P=0&h=180" alt="Icon 4"> TIN TỨC </a></li>
+              <li><a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.IVWBSF4fGNbG3iqZ-RPk-gHaIE&pid=Api&P=0&h=180" alt="Icon 4"> ƯU ĐÃI</a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>
